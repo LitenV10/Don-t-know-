@@ -1,5 +1,5 @@
-worker: python3 -m smartEncoder
-web: python3 -m smartEncoder
+worker: python3 -m smartencoder
+web: python3 -m smartencoder
 
 
 
