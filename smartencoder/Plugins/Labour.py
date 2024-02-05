@@ -5,9 +5,9 @@ import asyncio
 from config import Config
 #from SmartEncoder.__main__ import *
 
-from SmartEncoder.Plugins.compress import en_co_de
-from SmartEncoder.Tools.progress import *
-from SmartEncoder.Plugins.list import *
+from smartencoder.Plugins.compress import en_co_de
+from smartencoder.Tools.progress import *
+from smartencoder.Plugins.list import *
 
 async def labour_encode(bot, update):
   download_location = Config.DOWN_PATH + "/"
