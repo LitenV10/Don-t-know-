@@ -23,19 +23,19 @@ from pyrogram.handlers import MessageHandler, CallbackQueryHandler
 
 from pyrogram.errors import FloodWait
 from datetime import datetime as dt
-#from SmartEncoder.Plugins.compress import *
+#from smartencoder.Plugins.compress import *
 # database 
-from SmartEncoder.Database.db import *
-import SmartEncoder.Plugins.Labour
-from SmartEncoder.Plugins.Queue import *
-from SmartEncoder.Plugins.list import *
-from SmartEncoder.Tools.eval import *
-from SmartEncoder.Addons.download import d_l
-from SmartEncoder.Addons.executor import bash_exec
-from SmartEncoder.Plugins.cb import *
-from SmartEncoder.Addons.list_files import l_s
-from SmartEncoder.translation import Translation
-from SmartEncoder.Tools.progress import *
+from smartencoder.Database.db import *
+import smartencoder.Plugins.Labour
+from smartencoder.Plugins.Queue import *
+from smartencoder.Plugins.list import *
+from smartencoder.Tools.eval import *
+from smartencoder.Addons.download import d_l
+from smartencoder.Addons.executor import bash_exec
+from smartencoder.Plugins.cb import *
+from smartencoder.Addons.list_files import l_s
+from smartencoder.translation import Translation
+from smartencoder.Tools.progress import *
 from config import Config
 from pyrogram import filters, Client, idle
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ForceReply, CallbackQuery
@@ -497,5 +497,3 @@ async def rename_pro(bot, message):
     os.remove(_fn)
 
 '''
-
-
