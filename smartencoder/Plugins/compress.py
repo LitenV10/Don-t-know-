@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-from smartencoder.Plugins.list import *
+from smartencoder.plugins.list import *
 
 from smartencoder.Tools.progress import *
 from smartencoder.Tools.ffmpeg_progress import progress_shell
