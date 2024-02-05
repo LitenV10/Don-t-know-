@@ -40,7 +40,7 @@ from pyrogram.errors import MessageNotModified, FloodWait, UserNotParticipant
 from pyrogram import Client
 from pyrogram.types import CallbackQuery
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler
-from SmartEncoder.Plugins.renamer import *
+from smartencoder.Plugins.renamer import *
 from datetime import datetime as dt
 #from SmartEncoder.Plugins.compress import *
 # database 
