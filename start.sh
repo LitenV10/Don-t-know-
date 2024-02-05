@@ -1,4 +1,4 @@
-gunicorn app:app & python3 -m SmartEncoder
+gunicorn app:app & python3 -m smartEncoder
 
 
 
