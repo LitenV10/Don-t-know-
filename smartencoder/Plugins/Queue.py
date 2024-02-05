@@ -9,9 +9,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 from pyrogram.types import Message
-from SmartEncoder.Database.db import myDB
-from SmartEncoder.Plugins.list import *
-from SmartEncoder.__main__ import *
+from smartencoder.Database.db import myDB
+from smartencoder.Plugins.list import *
+from smartencoder.__main__ import *
 
 
 async def on_task_complete(bot, message: Message):
