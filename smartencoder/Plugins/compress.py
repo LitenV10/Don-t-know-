@@ -12,11 +12,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-from SmartEncoder.Plugins.list import *
+from smartencoder.Plugins.list import *
 
-from SmartEncoder.Tools.progress import *
-from SmartEncoder.Tools.ffmpeg_progress import progress_shell
-#from SmartEncoder.Database.db import myDB
+from smartencoder.Tools.progress import *
+from smartencoder.Tools.ffmpeg_progress import progress_shell
+#from smartencoder.Database.db import myDB
 
 
 async def en_co_de(dl, message):
