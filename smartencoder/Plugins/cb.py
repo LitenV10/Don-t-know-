@@ -1,15 +1,15 @@
-#from SmartEncoder.__main__ import FormtDB, ReplyDB, QueueDB, ytaudio, thumb, yt, yt480p, yt360p, yt240p,ythd
-#from SmartEncoder.Plugins.main import FormtDB, ReplyDB, QueueDB, ytaudio, thumb, yt, yt480p, yt360p, yt240p,ythd
-from SmartEncoder.__main__ import *
+#from smartencoder.__main__ import FormtDB, ReplyDB, QueueDB, ytaudio, thumb, yt, yt480p, yt360p, yt240p,ythd
+#from smartencoder.Plugins.main import FormtDB, ReplyDB, QueueDB, ytaudio, thumb, yt, yt480p, yt360p, yt240p,ythd
+from smartencoder.__main__ import *
 from pyrogram.types import CallbackQuery
 from humanfriendly import format_timespan
-from SmartEncoder.translation import Translation
+from smartencoder.translation import Translation
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from config import Config
 import psutil
 import shutil
 import signal
-#from SmartEncoder.Database.db import myDB 
+#from smartencoder.Database.db import myDB 
 import os
 import asyncio 
 import time
@@ -24,24 +24,24 @@ import random
 from pyrogram import Client
 from pyrogram.types import CallbackQuery
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler
-from SmartEncoder.Plugins.ffmg import OpenSettings, trimmer, MergeVideo, generate_screen_shots, cult_small_video, take_screen_shot, fix_thumb, MakeButtons, delete_all, extr_files, get_files
-#from SmartEncoder.Plugins.ffmg import delete_all
+from smartencoder.Plugins.ffmg import OpenSettings, trimmer, MergeVideo, generate_screen_shots, cult_small_video, take_screen_shot, fix_thumb, MakeButtons, delete_all, extr_files, get_files
+#from smartencoder.Plugins.ffmg import delete_all
 from pyrogram.errors import FloodWait
 from datetime import datetime as dt
-#from SmartEncoder.Plugins.compress import *
+#from smartencoder.Plugins.compress import *
 # database 
-from SmartEncoder.Database.db import *
-import SmartEncoder.Plugins.Labour
-from SmartEncoder.Plugins.Queue import *
-#from SmartEncoder.Plugins.ffmpeg import take_screen_shot,fix_thumb
-from SmartEncoder.Plugins.list import *
-from SmartEncoder.Tools.eval import *
-from SmartEncoder.Addons.download import d_l
-from SmartEncoder.Addons.executor import bash_exec
-from SmartEncoder.Plugins.cb import *
-from SmartEncoder.Addons.list_files import l_s
-from SmartEncoder.translation import Translation
-from SmartEncoder.Tools.progress import *
+from smartencoder.Database.db import *
+import smartencoder.Plugins.Labour
+from smartencoder.Plugins.Queue import *
+#from smartencoder.Plugins.ffmpeg import take_screen_shot,fix_thumb
+from smartencoder.Plugins.list import *
+from smartencoder.Tools.eval import *
+from smartencoder.Addons.download import d_l
+from smartencoder.Addons.executor import bash_exec
+from smartencoder.Plugins.cb import *
+from smartencoder.Addons.list_files import l_s
+from smartencoder.translation import Translation
+from smartencoder.Tools.progress import *
 from config import Config
 from pyrogram import filters, Client, idle, enums
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ForceReply, CallbackQuery
@@ -52,7 +52,7 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 import anitopy
 import os
-from SmartEncoder.Database.set import escape_invalid_curly_brackets
+from smartencoder.Database.set import escape_invalid_curly_brackets
 
 
       
